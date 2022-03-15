@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0px;
+}
+
+:root {
+  --dark: #731895;
+  --white: #ffffff;
+  --black: #050521;
+}
+/* body,
+html {
+  min-height: 100%;
+}
+main {
+  background: url("../Images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.connect-wallet {
+  background: linear-gradient(90deg, #b000ee, #111bff);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-links {
+  font-size: 18px;
+  color: #050521;
+}
+.text-links:hover {
+  border-bottom: 1px solid #1d023e;
+}
+.square {
+  width: 400px;
+  height: 200px;
+  background: linear-gradient(to left, #5001b0, #1d023e);
+  border-radius: 5px;
+}
+.square-card {
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+  justify-content: space-between;
+  align-content: center;
+  display: flex;
+}
+.square-trak {
+  margin-top: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.square-text {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.square-btn-1 {
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to right, #1c0047a8 10%, #f40bdd80);
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+.square-btn-2 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #bd2aaece;
+  color: #bd2aaece;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+.square-btn-1:hover {
+  color: #ffffff;
+  transform: 1s;
+}
+.square-btn-2:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.img-body {
+  margin-top: 10px;
+  border-radius: 5px;
+  background: linear-gradient(140deg, #6e00f3, #00022e);
+}
+.line {
+  border-bottom: 1px solid rgb(244, 244, 247);
+}
+.card-icon {
+  text-decoration: none;
+}
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.img-card {
+  width: 50px;
+  clip-path: circle();
+}
+.img:hover {
+  transform: scale(1.05);
+  transition: 1s all ease;
+}
+.card {
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+.name {
+  font-size: 18px;
+  margin-left: 3px;
+}
+.link-card {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+.link-card-2 {
+  width: 102px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid #5001b0;
+}
+.link-card-text {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  color: #5001b0;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+.link-card-text-2 {
+  position: absolute;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 4px;
+  margin-top: 5px;
+  margin-right: 1px;
+}
+.link-card:hover {
+  background: none;
+  border: 1px solid #f6f6f7;
+  transition: 1s all ease-out;
+}
+.link-card-text:hover {
+  color: #ececec;
+  font-size: 15px;
+  border: none;
+}
+.link-card-2:hover {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  border: none;
+  transition: 1s all ease-out;
+}
+.link-card-text-2:hover {
+  color: #5001b0;
+  font-weight: 500;
+}
+
+.trending,
+.view {
+  text-decoration: none;
+  color: #5001b0;
+  font-size: 18px;
+}
+.trending,
+.view:hover {
+  color: #5001b0;
+}
+.trending:hover {
+  color: #5001b0;
+}
+
+#footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box-s {
+  /* position: relative; */
+  /* margin-bottom: 10px; */
+}
+
+input {
+  /* position: absolute; */
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.5s;
+}
+input[type="email"] {
+  background: #1d023e;
+  color: #ececec;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 00 25px;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  position: relative;
+  border-radius: 0 25px 25px 25px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #6e00f3;
+  color: #fff;
+}
+.media {
+  margin-right: 10px;
+}
+.iconss {
+  padding: 50px;
+}
